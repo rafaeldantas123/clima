@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9780287114845938) 36%, rgba(0, 73, 88, 1) 100%);
+}
+
+/*inicio do site*/
+
+.img-logo img {
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.inicio-do-site {
+    background-color: black;
+
+    width: 100%;
+    height: 90px;
+
+}
+
+
+
+header>.inicio-do-site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+header nav ul {
+    list-style-type: none;
+
+}
+
+header nav ul li {
+    display: inline-block;
+
+}
+
+.menu-desktop {
+    display: grid;
+    place-items: center;
+
+}
+
+
+/*topo do site*/
+
+
+.img-topo-do-site h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    gap: 10px;
+    font-size: 35px;
+    font-family: 'https://fonts.googleapis.chttps://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,500;1,700;1,900&display=swap';
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1000;
+    filter: drop-shadow(1px 1px 1px yellow);
+}
+
+.img-topo-do-site p {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -30%);
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    font-size: 22px;
+    font-family: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700;1,900&display=swap';
+    font-family: sans-serif;
+    font-weight: 900;
+    filter: drop-shadow(1px 1px 1px yellow);
+}
+
+.img-topo-do-site img {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(25%);
+}
+
+.button-topo-do-site button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(0, 255, 0);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    z-index: 3;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+
+}
+
+
+
+button:hover {
+    box-shadow: 0px 0px 15px #00ff08;
+    transform: scale(1.05);
+
+}
+
+
+/*oque fazemos*/
+.o-que-fazemos {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9780287114845938) 36%, rgba(0, 73, 88, 1) 100%);
+}
+
+.o-que-fazemos .oque-fazemos-box {
+
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: 1.2s;
+}
+
+.o-que-fazemos .oque-fazemos-box:hover {
+
+    transform: scale(0.9);
+    box-shadow: 0 0 20px #00799eef;
+}
+
+.o-que-fazemos .oque-fazemos-box i {
+
+    font-size: 90px;
+    color: #00ff08;
+}
+
+.o-que-fazemos .oque-fazemos-box h3 {
+    color: #00ff08;
+    font-size: 38px;
+    margin: 35px 0;
+}
+
+
+.oque-fazemos-box p {
+    font-size: 24px;
+}
+
+.caixa-oque-fazemos {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.sobre {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9780287114845938) 36%, rgba(0, 73, 88, 1) 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+    box-shadow: 0 0 40px #ffffff1d;
+
+}
+
+.sobre h1 {
+    color: #00ff08;
+    position: absolute;
+    top: 235%;
+    left: 49%;
+    transform: translate(-50%, -30%);
+    margin-bottom: 30px;
+
+}
+
+.sobre p {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    filter: drop-shadow(1px 1px 1px rgb(66, 0, 0));
+
+}
+
+
+/*rodape*/
+
+footer {
+
+    padding: 40px;
+
+}
+
+footer .flex {
+    justify-content: space-between;
+
+}
+
+footer .line-footer {
+    padding: 20px 0;
+
+
+}
+
+
+footer .line-footer p i {
+
+    color: #00ff08;
+    font-size: 22px;
+    padding: 10px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+
+}
+
+
+.line-footer {
+    border-top: 5px solid rgb(0, 255, 0);
+
+}
+
+
+
+.logo-footer img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.btn-social button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(0, 255, 0);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-social button:hover {
+    box-shadow: 0px 0px 15px #00ff08;
+    transform: scale(1.05);
+
+}
