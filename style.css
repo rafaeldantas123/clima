@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .flex {
@@ -142,6 +143,8 @@ button:hover {
 
 
 /*oque fazemos*/
+
+
 .o-que-fazemos {
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.9780287114845938) 36%, rgba(0, 73, 88, 1) 100%);
@@ -201,17 +204,16 @@ button:hover {
 
 .sobre h1 {
     color: #00ff08;
+    font-size: 30px;
     position: absolute;
+    left: 37%;
     top: 235%;
-    left: 49%;
-    transform: translate(-50%, -30%);
-    margin-bottom: 30px;
-
 }
 
 .sobre p {
     margin-top: 150px;
-    margin-bottom: 50px;
+    display: inline-block;
+    margin-bottom: 30px;
     margin-left: 70px;
     margin-right: 70px;
     filter: drop-shadow(1px 1px 1px rgb(66, 0, 0));
@@ -279,4 +281,123 @@ footer .line-footer p a {
     box-shadow: 0px 0px 15px #00ff08;
     transform: scale(1.05);
 
+}
+
+
+
+/*responsividade*/
+
+
+@media screen and (max-width: 1278px) {
+
+    .img-topo-do-site h1 {
+        position: absolute;
+        top: 24%;
+        left: 55%;
+
+
+    }
+
+    .button-topo-do-site button {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+
+    }
+
+
+
+    .img-topo-do-site p {
+        position: absolute;
+        top: 40%;
+        left: 55%;
+        padding: 3px 5px;
+        padding-left: 10px;
+
+
+    }
+
+
+    .inicio-do-site .menu-desktop {
+        display: none;
+    }
+
+
+
+    .caixa-oque-fazemos {
+        flex-direction: column;
+
+    }
+
+
+    .o-que-fazemos .oque-fazemos-box p {
+        padding: 30px 40px;
+    }
+
+
+
+    /*quem somos nos*/
+
+
+
+    .img-topo-do-site h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .img-topo-do-site p {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .button-topo-do-site button {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+
+    .oque-fazemos.oque-fazemos-box i {
+        font-size: 60px;
+    }
+
+    .oque-fazemos.oque-fazemos-box h3 {
+        font-size: 25px;
+    }
+
+    .oque-fazemos-box p {
+        font-size: 18px;
+    }
+
+    .sobre h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        top: 240%;
+        left: 25%;
+        position: absolute;
+    }
+
+    .sobre p {
+        font-size: 18px;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        width: 700px;
+    }
+
+    footer.line-footer p i {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    footer.line-footer p a {
+        font-size: 16px;
+    }
+
+    .logo-footer img {
+        width: 50px;
+    }
+
+    .btn-social button {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
 }
