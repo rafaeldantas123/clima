@@ -200,6 +200,7 @@ button:hover {
 
     box-shadow: 0 0 40px #ffffff1d;
 
+
 }
 
 .sobre h1 {
@@ -207,7 +208,7 @@ button:hover {
     font-size: 30px;
     position: absolute;
     left: 37%;
-    top: 235%;
+    top: 230%;
 }
 
 .sobre p {
@@ -400,4 +401,35 @@ footer .line-footer p a {
         padding: 5px 20px;
         font-size: 14px;
     }
+}
+
+
+
+@media screen and (max-width: 844px) {
+
+
+    .img-topo-do-site h1 {
+        top: 20%;
+    }
+
+    .img-topo-do-site p {
+        position: absolute;
+        top: 30%;
+        left: 55%;
+
+
+    }
+
+    .button-topo-do-site button {
+        position: absolute;
+        top: 45%;
+        left: 40%;
+    }
+
+    .sobre h1 {
+        position: absolute;
+        left: 25%;
+        top: 165%;
+    }
+
 }
